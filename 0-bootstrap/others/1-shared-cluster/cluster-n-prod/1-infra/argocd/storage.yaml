@@ -17,10 +17,10 @@ spec:
     path: storage
     helm:
       values: |
-        ${STORAGE_CHART_NAME}:
-          channel: ${CHANNEL}
+        odf-operator:
+          channel: stable-4.10
           sizeGiB: 512
-          storageClass: ${STORCLASS}
+          storageClass: managed-premium
           argo:
             namespace: openshift-gitops
             serviceAccount: openshift-gitops-cntk-argocd-application-controller
