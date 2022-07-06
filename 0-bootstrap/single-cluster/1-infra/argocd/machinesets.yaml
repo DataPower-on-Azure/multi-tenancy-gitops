@@ -23,7 +23,7 @@ spec:
           # cloudProvider.managed set to true for ROSA, ARO, ROKS
           cloudProvider:
             name: "azure" 
-            managed: false
+            managed: true
           # only for "aws", "ibmcloud" or "azure" maybe "gcp"
           cloud:
             region: eastus
