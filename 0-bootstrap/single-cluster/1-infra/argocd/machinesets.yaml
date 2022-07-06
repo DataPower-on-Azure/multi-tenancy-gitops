@@ -30,6 +30,8 @@ spec:
             networkResourceGroup: rg-marriott-aro-2
             resourceGroup: aro-kcoo3sbx
             image:
+            infraNodes:
+              nodeCount: 0
           # only for "vsphere" - ignored for other
           vsphere:
             networkName: ${VS_NETWORK}
