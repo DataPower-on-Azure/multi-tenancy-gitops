@@ -27,7 +27,9 @@ spec:
           # only for "aws", "ibmcloud" or "azure" maybe "gcp"
           cloud:
             region: eastus
-            image: 
+            networkResourceGroup: rg-marriott-aro-2
+            resourceGroup: aro-kcoo3sbx
+            image:
           # only for "vsphere" - ignored for other
           vsphere:
             networkName: ${VS_NETWORK}
